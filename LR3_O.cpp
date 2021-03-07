@@ -34,6 +34,7 @@ public:
         Auto::print();
         cout << ", " << "number of passengers: " << num << endl;
     }
+    ~Bus() {}
 };
 
 int main()
